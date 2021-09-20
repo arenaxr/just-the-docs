@@ -150,7 +150,7 @@ layout: table_wrappers
           </ul>
         {% endif %}
 
-        {% if page.has_children == false page.has_toc == false %}
+        {% if page.has_children == false and page.has_toc == false %}
           <hr>
           <h2 class="text-delta">ARENA Navigation</h2>
           {{ page.dir }} {{ page.name }} {{ page.path }}
